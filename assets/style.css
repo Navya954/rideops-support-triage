@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* ---------- Global styling ---------- */
+
+html, body, [class*="css"] {
+    font-family: Inter, sans-serif;
+}
+
+.stApp {
+    background: #f5f7fb;
+}
+
+.block-container {
+    padding-top: 1.4rem;
+    padding-bottom: 2rem;
+    max-width: 1500px;
+}
+
+/* ---------- Sidebar ---------- */
+
+[data-testid="stSidebar"] {
+    background: #101828;
+}
+
+[data-testid="stSidebar"] * {
+    color: #e5eaf3 !important;
+}
+
+[data-testid="stSidebar"] .stRadio label {
+    padding: 7px 9px;
+    border-radius: 8px;
+}
+
+[data-testid="stSidebar"] hr {
+    border-color: #293449;
+}
+
+/* ---------- File uploader ---------- */
+
+[data-testid="stSidebar"] [data-testid="stFileUploader"] {
+    background: #172238;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Upload button - black text */
+
+[data-testid="stSidebar"] [data-testid="stFileUploader"] button,
+[data-testid="stSidebar"] [data-testid="stFileUploader"] button span,
+[data-testid="stSidebar"] [data-testid="stFileUploader"] button p {
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stFileUploader"] button {
+    background-color: #7DD3FC !important;
+    border: 1px solid #7DD3FC !important;
+    font-weight: 600 !important;
+}
+
+/* Upload button hover */
+
+[data-testid="stSidebar"] [data-testid="stFileUploader"] button:hover {
+    background-color: #38BDF8 !important;
+    border-color: #38BDF8 !important;
+}
+
+/* Upload area text */
+
+[data-testid="stSidebar"] [data-testid="stFileUploader"] section {
+    color: #7DD3FC !important;
+}
+
+/* ---------- KPI Metrics ---------- */
+
+[data-testid="stMetric"] {
+    background: white;
+    padding: 16px 18px;
+    border: 1px solid #e8edf5;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(16, 24, 40, .03);
+}
+
+[data-testid="stMetricLabel"] {
+    color: #667085 !important;
+    font-weight: 600;
+}
+
+[data-testid="stMetricValue"] {
+    color: #101828;
+    font-weight: 800;
+}
+
+[data-testid="stMetricDelta"] {
+    font-size: 12px;
+}
+
+/* ---------- Tabs ---------- */
+
+div[data-testid="stTabs"] button {
+    font-weight: 600;
+}
+
+/* ---------- Cards ---------- */
+
+.card {
+    background: #fff;
+    border: 1px solid #e8edf5;
+    border-radius: 14px;
+    padding: 18px 20px;
+    box-shadow: 0 2px 8px rgba(16, 24, 40, .025);
+}
+
+/* ---------- Header ---------- */
+
+.header-title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #101828;
+    margin: 0;
+    letter-spacing: -.7px;
+}
+
+.header-sub {
+    font-size: 14px;
+    color: #667085;
+    margin-top: 4px;
+}
+
+/* ---------- Section titles ---------- */
+
+.section-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #101828;
+    margin: 0 0 8px 0;
+}
+
+.small-muted {
+    color: #667085;
+    font-size: 12px;
+}
+
+/* ---------- Pills ---------- */
+
+.pill {
+    display: inline-block;
+    padding: 4px 9px;
+    border-radius: 30px;
+    font-size: 11px;
+    font-weight: 700;
+    background: #eef4ff;
+    color: #344054;
+}
+
+/* ---------- Ticket items ---------- */
+
+.ticket-item {
+    background: #fff;
+    border: 1px solid #e8edf5;
+    border-radius: 12px;
+    padding: 13px 15px;
+    margin-bottom: 9px;
+}
+
+.ticket-title {
+    font-weight: 700;
+    color: #101828;
+    font-size: 14px;
+}
+
+.ticket-meta {
+    font-size: 12px;
+    color: #667085;
+    margin-top: 5px;
+}
+
+/* ---------- Dividers ---------- */
+
+hr {
+    border-color: #e8edf5;
+}
